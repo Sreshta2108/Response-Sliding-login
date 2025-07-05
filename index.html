@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login/Register Slide</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="background">
+    <div class="background-Right"></div>
+    <div class="background-Left"></div>
+  </div>
+
+  <div id="slide">
+    <div class="top">
+      <div class="left">
+        <div class="content">
+          <h2>Sign Up</h2>
+          <form method="post" onsubmit="return false;">
+            <input type="text" placeholder="email" />
+            <input type="password" placeholder="password" />
+          </form>
+          <button id="LeftToRight" class="on-off">Go to Login</button>
+          <button>Register</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="content">
+          <h2>Login</h2>
+          <form method="post" onsubmit="return false;">
+            <input type="text" placeholder="email" />
+            <input type="password" placeholder="password" />
+            <button id="RightToLeft" class="on-off">Go to Register</button>
+            <button>Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
